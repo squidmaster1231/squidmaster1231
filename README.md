@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @squidmaster1231 
+- 👀 I’m interested in how to make 3d game 
+- 🌱 I’m currently learning how to create 3D game
+- 💞️ I’m looking to collaborate on some popular game
+- Those any body know how to create 3D game?
