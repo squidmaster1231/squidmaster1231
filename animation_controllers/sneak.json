@@ -1,0 +1,40 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.anicon": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                          "test1": "(query.is_sneaking)"
+                        },
+						 {
+							
+                            "test2": "(!query.is_sneaking)"
+                        }
+                    ]
+                },
+                "test1": {
+                    "on_entry": [
+                        "/tag @s add sneaking"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ]
+                },
+				   "test2": {
+                    "on_entry": [
+                        "/tag @s remove sneaking"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
